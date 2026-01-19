@@ -1,0 +1,23 @@
+# Auto-update README with latest YouTube videos
+# To get your channel ID: Go to YouTube Studio > Settings > Channel > Advanced settings
+name: Latest YouTube Videos
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # Runs every 12 hours
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UC_YOUR_CHANNEL_ID_HERE"
+          max_post_count: 5
+          comment_tag_name: "YOUTUBE"
+          template: "- [$title]($url)"
+          commit_message: "docs: update latest YouTube videos"
