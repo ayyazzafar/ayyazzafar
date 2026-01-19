@@ -57,20 +57,9 @@ I'm a Full-Stack Developer with **15+ years of experience** building web applica
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ayyazzafar&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ayyazzafar&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=ayyazzafar&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
 
 </div>
-
----
-
-## Latest YouTube Videos
-
-<!-- YOUTUBE:START -->
-<!-- This section can be auto-updated with GitHub Actions -->
-<!-- YOUTUBE:END -->
-
-[![YouTube Channel](https://img.shields.io/badge/Watch_on_YouTube-AyyazTech-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@AyyazTech?sub_confirmation=1)
 
 ---
 
